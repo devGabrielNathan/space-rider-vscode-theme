@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "Courier Prime, Courier New, JetBrains Mono, monospace",
+  "editor.fontFamily": "Space Mono, Courier Prime, IBM Plex Mono, Victor Mono, JetBrains Mono, monospace",
   "editor.fontLigatures": true,
   "editor.fontWeight": "400"
 }
