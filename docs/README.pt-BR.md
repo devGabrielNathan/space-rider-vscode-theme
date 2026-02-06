@@ -83,6 +83,36 @@ Como definir fontes no VS Code:
 }
 ```
 
+### UI font settings (optional)
+
+O VS Code nao permite que o tema mude a fonte da UI. Se voce quiser que a UI (menus, sidebar, tabs) use Space Mono, voce pode injetar um CSS pequeno com uma extensao de Custom CSS.
+
+1. Instale a extensao: https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
+2. Crie um arquivo CSS, por exemplo `~/.config/Code/User/custom-ui.css`:
+
+```css
+/* Custom UI font */
+:root,
+body,
+.monaco-workbench,
+.monaco-workbench * {
+  font-family: "Space Mono", system-ui, Ubuntu, "Droid Sans", sans-serif !important;
+}
+```
+
+3. Adicione isto no `settings.json`:
+
+```jsonc
+{
+  "vscode_custom_css.imports": [
+    "file:///home/your-user/.config/Code/User/custom-ui.css"
+  ]
+}
+```
+
+4. Command Palette: `Enable Custom CSS and JS`
+5. Reinicie o VS Code
+
 ### Font installation
 
 Downloads:
