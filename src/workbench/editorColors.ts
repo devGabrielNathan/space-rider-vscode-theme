@@ -1,0 +1,27 @@
+import type { PaletteLike } from "../modes/paletteTypes";
+
+export const editorColors = (palette: PaletteLike): Record<string, string> => ({
+  "editor.background": palette.bg0,
+  "editor.foreground": palette.fg0,
+  "editorLineNumber.foreground": palette.comment,
+  "editorLineNumber.activeForeground": palette.fg1,
+  "editorCursor.foreground": palette.fg0,
+  "editor.selectionBackground": palette.bg2,
+  "editor.inactiveSelectionBackground": palette.bg2,
+  "editor.selectionHighlightBackground": palette.bg1,
+  "editor.wordHighlightBackground": palette.bg1,
+  "editor.wordHighlightStrongBackground": palette.bg2,
+  "editor.findMatchBackground": palette.operator,
+  "editor.findMatchHighlightBackground": palette.bg2,
+  "editor.findRangeHighlightBackground": palette.bg1,
+  "editor.lineHighlightBackground": palette.bg1,
+  "editorWhitespace.foreground": palette.bg2,
+  "editorIndentGuide.background": palette.bg2,
+  "editorIndentGuide.activeBackground": palette.fg1,
+  "editorBracketMatch.background": palette.bg2,
+  "editorBracketMatch.border": palette.operator,
+  "editorError.foreground": palette.error,
+  "editorWarning.foreground": palette.operator,
+  "editorInfo.foreground": palette.info,
+  "editorHint.foreground": palette.info,
+});
