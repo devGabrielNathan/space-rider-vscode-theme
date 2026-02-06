@@ -17,6 +17,7 @@
 ## About
 
 Theme system for VS Code with perceptual hierarchy and a fork-friendly structure.
+Inspired by the Gruvbox project and its overall structure.
 
 ## Modes and variants
 

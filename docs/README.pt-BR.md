@@ -17,6 +17,7 @@
 ## About
 
 Sistema de temas para VS Code com hierarquia perceptiva e estrutura pensada para forks.
+Inspirado no projeto Gruvbox e na sua estrutura geral.
 
 ## Modes and variants
 
