@@ -5,7 +5,8 @@
 <h1 align="center">
   <br>
   <a href="images/icon-v2.png">
-    <img src="https://raw.githubusercontent.com/gabrielnathan/space-rider-vscode-theme/main/images/icon-v2.png" alt="Space Rider" width="360" style="border-radius: 50%;">
+    <img src="https://raw.githubusercontent.com/devGabrielNathan/space-rider-vscode-theme/main/images/icon-v2.png
+    " alt="Space Rider" width="360" style="border-radius: 50%;">
   </a>
   <br>
   Space Rider
