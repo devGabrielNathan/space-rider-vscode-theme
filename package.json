@@ -1,0 +1,70 @@
+{
+  "name": "space-rider",
+  "displayName": "Space Rider",
+  "icon": "images/icon-v2.png",
+  "description": "Um tema escuro elegante inspirado em Cowboy Bebop, com cores quentes e contrastantes para uma experiência única no VS Code.",
+  "version": "1.0.0",
+  "publisher": "gabrielnathan",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:theme": "node dist/build.js",
+    "build:all": "npm run build && npm run build:theme",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "author": {
+    "name": "Gabriel Nathan",
+    "email": "devgabrielnathan@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielnathan/space-rider-vscode-theme.git"
+  },
+  "engines": {
+    "vscode": ">=1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Space Rider Base",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-rider-color-theme.json"
+      },
+      {
+        "label": "Space Rider High Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-rider-high-contrast-color-theme.json"
+      },
+      {
+        "label": "Space Rider High Contrast Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-rider-high-contrast-soft-color-theme.json"
+      },
+      {
+        "label": "Space Rider High Contrast Vivid",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-rider-high-contrast-vivid-color-theme.json"
+      },
+      {
+        "label": "Space Rider Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-rider-soft-color-theme.json"
+      },
+      {
+        "label": "Space Rider Vivid",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-rider-vivid-color-theme.json"
+      }
+    ]
+  }
+}
